@@ -1,7 +1,12 @@
 # google-analytics-api-pandas
-simple python script to save google analytics query responses as a pandas dataframe
+simple python script to save [google analytics api](https://github.com/googleapis/google-api-python-client) query responses as a [pandas](https://github.com/pandas-dev/pandas) dataframe
 
-# Example Usage
+# How To
+install all the requirements with `pip install -r pip_req`
+
+run the analytics_template.py
+
+## Example Usage
 
 ```python
 query = report.build_report(analytics,
